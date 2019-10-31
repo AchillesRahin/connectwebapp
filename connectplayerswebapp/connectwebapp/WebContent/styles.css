@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+
+table, td, th { 
+      padding: 10px; 
+      border: 2px solid #1c87c9;
+      border-radius: 5px;
+      text-align: center;
+      color: white;
+      }
+      form{
+		text-align: center;
+      }
+
+      .contwo:hover {
+		background-color: #add8e6;
+		color: #226fbe;
+
+      }
+body {
+	 background-color:#383535;
+}
+      
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.activetab {
+  background-color: black;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+      
+
+      
